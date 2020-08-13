@@ -15,11 +15,6 @@ import static io.grpc.stub.ServerCalls.asyncUnaryCall;
 import static io.grpc.stub.ServerCalls.asyncUnimplementedStreamingCall;
 import static io.grpc.stub.ServerCalls.asyncUnimplementedUnaryCall;
 
-/**
- */
-@javax.annotation.Generated(
-    value = "by gRPC proto compiler (version 1.21.0)",
-    comments = "Source: graphqlService.proto")
 public final class QuasarGraphQLServiceGrpc {
 
   private QuasarGraphQLServiceGrpc() {}
