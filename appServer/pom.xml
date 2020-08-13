@@ -63,6 +63,12 @@
             <groupId>com.google.api.graphql</groupId>
             <artifactId>rejoiner</artifactId>
             <version>0.0.4</version>
+            <exclusions>
+                <exclusion>
+                    <groupId>io.grpc</groupId>
+                    <artifactId>grpc-core</artifactId>
+                </exclusion>
+            </exclusions>
         </dependency>
     </dependencies>
 
